@@ -1,0 +1,213 @@
+/* In  order to start from 0 everywhere
+*{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: #ffffff;
+    color: #000000;
+
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    /* Same as above
+    font: bold arial 12px; */
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* hover is when you move your cursor on a specific area/text/link and it changes the color */
+a:hover{
+    color: red;
+}
+
+/* When you click on the link the green color shows up, that means, it has been activated after the click*/
+a:active{
+    color: green;
+}
+
+/* a:visited is once you've clicked on the link it shows that you already visited that page*/
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /*  Same thing as above
+    border: 5px red solid; */
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    /* The simple method
+    padding: 20px; */
+
+    margin-top: 20px;
+    /* Simplified, first number is for Top and bottom, the second one is for left and right
+    margin: 20px 0; */
+}
+
+/* target all the h1 inside of the box-1 */
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(../images/check.png);
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image:url(../images/bgimage.png);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5){
+    background: yellow;
+}
+
+.my-list li:nth-child(even){
+    background: grey;
+}
+
+
