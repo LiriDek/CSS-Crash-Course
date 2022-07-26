@@ -118,32 +118,44 @@
 
 /*Layout 4*/
 
+.row-4{
+    width: 100%;
+    max-width: 600px;    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 .container-4{
     border: 2px solid rgb(36, 14, 233);
     padding: 24px 24px 0 24px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .box-4{
     border: 2px solid black;
-    width: 100%;
+    width: 30%;
     height: 50px;
 }
 
-.large-box-4{
-    border: 2px solid black;
-}
-
 .left-container-4{
-    width: 50%;
+    width: 45%;
 }
 
 .large-box-4{
-    width: 50%;
+    width: 45%;
+    margin-bottom: 24px;
+    border: 2px solid black;
 }
 
 .small-box-4{
     display: flex;
+    justify-content: space-between;
     margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.titles-box-4{
+    border: 2px solid black;
+    height: 50px;
+    margin-bottom: 24px;
 }
