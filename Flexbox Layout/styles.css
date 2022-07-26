@@ -9,10 +9,141 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 75px;
 }
 
 .box{
     width: 100px;
     height: 100px;
     border: 2px solid black;
+}
+
+/* Layout 1*/
+
+.container-1{
+    border: 2px solid purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin-bottom: 75px;
+}
+
+.bigger-box-1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+
+.box-1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.small-container-box-1{
+    display: flex;
+    align-items: center;
+}
+
+.small-box-1{
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+}
+
+
+/*Layout 2*/
+
+.container-2{
+    border: 2px solid orange;
+    padding: 24px 24px 0 24px;
+    margin-bottom: 75px;
+}
+
+/* Row is a way to display my content on a max-width*/
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title-2{
+    width: 100%;
+    height: 24px;
+    border: 2px solid black;
+    margin-bottom: 24px;
+}
+
+.box-2{
+    /*width: calc(100% / 3);*/
+    width: 30%;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 24px;
+}
+
+.small-container-box-2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+/*Layout 3*/
+
+.container-3{
+    border: 2px solid brown;
+    margin-bottom: 75px;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titles-container-3{
+    width: 45%;
+    /*display flex and flex direction column could have worked as well in this case*/
+}
+
+.titles-box-3{
+    height: 50px;
+    border: 2px solid black;
+    margin-bottom: 24px;
+}
+
+.big-right-box-3{
+    border: 2px solid black;
+    width: 45%;
+    margin-bottom: 24px;
+}
+
+/*Layout 4*/
+
+.container-4{
+    border: 2px solid rgb(36, 14, 233);
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-4{
+    border: 2px solid black;
+    width: 100%;
+    height: 50px;
+}
+
+.large-box-4{
+    border: 2px solid black;
+}
+
+.left-container-4{
+    width: 50%;
+}
+
+.large-box-4{
+    width: 50%;
+}
+
+.small-box-4{
+    display: flex;
+    margin-top: 24px;
 }
